@@ -1,0 +1,108 @@
+td {
+  padding: 15px 15px;
+}
+tr {
+  border-style: outset;
+}
+
+.cart img {
+  width: 20rem;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(245, 243, 243, 0.781);
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: thin solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+.buy-btn button {
+  display: inline-block;
+  height: 50px;
+  width: 15%;
+  margin: 0 40px 0 16px;
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 60px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #00dd9f;
+  cursor: pointer;
+  outline: none;
+
+}
+.count-inp {
+  width: 3vw;
+}
+.delete-from-cart {
+  width: 5vw;
+  height: 20px;
+  background-color: rgb(241, 243, 241);
+  color: #03b180;
+  border: 1px solid #03b180;
+  border-radius: 4px;
+
+}
+
+.delete-from-cart:hover{
+  color: #157e60;
+}
+
+
+
+
+
+
+/* td {
+  padding: 15px 15px;
+  border-bottom: 1px solid gray;
+}
+
+.cart-details img {
+  width: 25rem;
+}
+.count-inp {
+  width: 3vw;
+} */
+
+/* .delete-from-cart {
+  width: 5vw;
+  height: 20px;
+  background-color: rgb(241, 243, 241);
+  color: #03b180;
+  border: 1px solid #03b180;
+  border-radius: 4px;
+
+}
+
+.delete-from-cart:hover{
+  color: #157e60;
+} */

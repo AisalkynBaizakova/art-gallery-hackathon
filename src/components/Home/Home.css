@@ -1,0 +1,30 @@
+body {
+  background-color: #e3fcc362;
+}
+
+.content{
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.content-subtopic {
+  margin: auto 70px;
+  display: flex;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.content-subtopic p{
+  font: 15px/1.6 'PT Sans'
+}
+.main-caption span{
+  font:  40px ;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+}

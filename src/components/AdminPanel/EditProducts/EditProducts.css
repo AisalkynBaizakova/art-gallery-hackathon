@@ -1,0 +1,24 @@
+.edit-details{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.edit-details form{
+    margin: 100px auto;
+}
+.edit-details input{
+    height: 3vw;
+    width: 30vw;
+    border-radius: 5px;
+    border: 1px solid rgb(97, 204, 159);
+    text-align: center;
+}
+.edit-details button{
+    margin-top: 1em;
+    width: 30vw;
+    height: 3vw;
+    background-color: #00dd9f;
+    border-radius: 5px;
+    border: none;
+}
